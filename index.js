@@ -1,15 +1,9 @@
-const logger = require('./logger.js')
-const abs = require('./abs.js')
-const getConfig = require('./getConfig.js')
-const match = require('./match.js')
-const sanitize = require('./sanitize.js')
-const fixPathSeparators = require("./fixPathSeparators.js")
+const getFileKey = require('./getFileKey.js')
+const cleanPath = require('./cleanPath.js')
+const cleanPathSeparators = require("./cleanPathSeparators.js")
 
 module.exports = {
-  logger,
-  abs,
-  match,
-  sanitize,
-  getConfig,
-  fixPathSeparators
+  getFileKey,
+  cleanPath,
+  cleanPathSeparators
 }
