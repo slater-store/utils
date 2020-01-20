@@ -6,6 +6,10 @@
   "scripts": {
     "test": "NODE_ENV=testing ava ./tests/*.test.js --verbose"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "author": "https://thecouch.nyc",
   "license": "MIT",
   "homepage": "https://github.com/the-couch/slater#readme",

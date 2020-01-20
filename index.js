@@ -1,6 +1,6 @@
-const getFileKey = require('./getFileKey.js')
-const cleanPath = require('./cleanPath.js')
-const cleanPathSeparators = require("./cleanPathSeparators.js")
+const getFileKey = require('./lib/getFileKey.js')
+const cleanPath = require('./lib/cleanPath.js')
+const cleanPathSeparators = require("./lib/cleanPathSeparators.js")
 
 module.exports = {
   getFileKey,
