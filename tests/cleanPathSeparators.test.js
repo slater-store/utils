@@ -1,6 +1,7 @@
 const path = require('path');
 const test = require('ava');
-const clean = require('../cleanPathSeparators.js');
+
+const clean = require('../lib/cleanPathSeparators.js');
 
 test('*nix', t => {
   const p = clean(`/path/to/file.js`);

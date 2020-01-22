@@ -1,6 +1,8 @@
 const path = require('path');
 const test = require('ava');
-const clean = require('../cleanPath.js');
+
+const clean = require('../lib/cleanPath.js');
+
 const cwd = process.cwd();
 
 test('*nix', t => {
