@@ -1,7 +1,7 @@
 {
   "name": "@slater/util",
   "version": "2.0.3",
-  "description": "shopify theme management toolkit",
+  "description": "A component of the slater Shopify theme toolkit.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=testing ava ./tests/*.test.js --verbose"
@@ -9,6 +9,12 @@
   "files": [
     "lib",
     "index.js"
+  ],
+  "keywords": [
+    "shopify",
+    "themekit",
+    "upload",
+    "development"
   ],
   "author": "estrattonbailey",
   "license": "MIT",
