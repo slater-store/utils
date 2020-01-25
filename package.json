@@ -19,7 +19,11 @@
   "author": "estrattonbailey",
   "license": "MIT",
   "homepage": "https://github.com/slater-store/util#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "micromatch": "^4.0.2",
+    "recursive-readdir": "^2.2.2"
+  },
   "devDependencies": {
     "ava": "^3.0.0"
   }
