@@ -1,6 +1,6 @@
 {
   "name": "@slater/util",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A component of the slater Shopify theme toolkit.",
   "main": "index.js",
   "scripts": {
